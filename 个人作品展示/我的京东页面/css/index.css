@@ -1,0 +1,172 @@
+/*样式的预设*/
+body,h1,h2,h3,h4,h5,h6,ol,ul,li,dt,dd,dl,p,input,textarea,button{margin:0;padding:0;}
+ul li{list-style:none;}
+i{font-style:normal;font-family:arial,'微软雅黑',"宋体";color:#666666; }
+body{background:#fff;}
+input,img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clear:after{content:'';display:block;clear:both;}
+.clear{*zoom:1;}
+/*头部模块*/
+body{background:#f6f6f6}
+
+
+.header{margin: 0 auto;}
+.header .top{;height:30px;background:#f1f1f1;border-bottom:2px solid #b1191a;}
+.header .top_1{width: 1190px;margin: 0 auto;position: relative}
+.header .top_1 .logo{position: absolute;top:0px;left:0px;box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.5)}
+.header .top_1 .dizhi{float: left;font:15px/30px "宋体";margin-left: 210px}
+.header .top_1 ul{float: right;position: relative;}
+.header .top_1 ul li{float:left;font: 12px/30px "宋体";}
+.header .top_1 ul li a{color:#999999;padding: 0 15px}
+/*zi--1菜单*/
+#b_1:hover .q_q{display: block}
+.header .top_1 .q_q{display: none; position: absolute;top:29px;left: 255px; width: 200px;height: 100px;background: #FFFFFF;}
+.header .top_1 .q_q .Q-q{width: 150px;height: 80px;margin: 10px;}
+.header .top_1 .q_q .Q-q p{display: inline-block;}
+/*--2菜单*/
+#b_2:hover .q_a{display: block}
+.header .top_1 .q_a{display: none; position: absolute;top:29px;left: 582px; width: 200px;height: 100px;background: #FFFFFF;}
+.header .top_1 .q_a .Q-a{width: 150px;height: 80px;margin: 10px;}
+.header .top_1 .q_a .Q-a p{display: inline-block;}
+.header .top_1 ul li:hover a{background: #FFFFFF;display: inline-block;color: red}
+.header .top_1 ul li.xian{width:1px;height: 12px;background:#DDDDDD;margin-top:9px;}
+/*--3菜单*/
+#b_3:hover .q_s{display: block}
+.header .top_1 .q_s{display: none; position: absolute;top:29px;left: 633px; width: 200px;height: 100px;background: #FFFFFF;text-align: right;}
+.header .top_1 .q_s .Q-s{width: 150px;height: 80px;margin: 10px;}
+.header .top_1 .q_s .Q-s p{display: inline-block;}
+.header .top_1 ul li:hover a{background: #FFFFFF;display: inline-block;color: red}
+.header .top_1 ul li.xian{width:1px;height: 12px;background:#DDDDDD;margin-top:9px;}
+/*标题+输入框*/
+.header .inner{width: 1190px;height: 117px;}
+.header .inner{width: 1190px;margin: 0 auto;}
+.header .inner form{text-align: center;font-size: 0;margin-top: 25px}
+.header .inner form .top_in{ display: inline-block;width:500px;height: 36px;border: 2px solid #f10215; }
+.header .inner form .bot_in{width: 67px;height: 40px;background: #f10215;border: none}
+.header .inner ul{width:567px;margin: 0 auto; }
+.header .inner ul li{display: inline-block;}
+.header .inner ul li a{font:12px/30px "宋体";color:#999999}
+.header .inner ul li a:hover{color:#f10215}
+.header .inner .nav_1{margin-top:20px}
+.header .inner .nav_1 li{padding:0 3px}
+.header .inner .nav_1 li a{font:20px/30px "宋体";color:#555555;}
+.header .inner .tu{float: right;margin-top: -43px }
+.html .header .bot{width: 1190px;margin: 0 auto;position: relative}
+.html .header .bot .left{float: left;}
+.html .header .bot .tu_da{float: left;width: 1242px}
+.html .header .bot .tu_zheng:hover{width: 1238px;background: red;}
+.html .header .bot .tu_zheng{z-index: 2; position: absolute;top:3px;left:-246px; overflow: hidden;width: 246px;height: 482px;transition: all ease 1s}
+.html .header .bot .tu_zheng img{height: 482px;}
+/*选项卡*/
+.html .header .bot .left ul{width: 188px;height: 480px;background: #6e6568;border: 1px solid #6e6568;position: relative;}
+.html .header .bot .left ul li{width: 190px;cursor: pointer;color: #FFFFFF}
+.html .header .bot .left ul li:hover{background: #f2f2f2;color: #FFFFFF}
+.html .header .bot .left ul li:hover a{color: #000;}
+.html .header .bot .left ul li a{ font:14px/32px "宋体";color: #FFFFFF}
+.html .header .bot .left ul li a:hover{display: inline-block;color: red;}
+#li_1:nth-child(1):hover{}
+/*子菜单*/
+#xuan{position: absolute;top: 2px;left:190px;z-index: 3;display: none;}
+#xuan li{width: 804px;height: 482px;background: #FFFFFF;}
+
+.html .header .bot .innert{float: left}
+.html .header .bot .innert .innert_top{ margin: 0px 12px 10px 12px;}
+/*                  轮播图  css          */
+.html .header .bot .innert .innert_top ul{width: 790px;height: 340px;position: relative;position: relative}
+.html .header .bot .innert .innert_top ul li{position: absolute;top:0;left:0;animation: donghua 1s;}
+@keyframes donghua { 0%{opacity: 0.5;} 0%{opacity: 0;} 25%{opacity: 0.25;} 50%{opacity: 0.5;} 75%{opacity: 0.75;} 100%{opacity: 1;}}
+.html .header .bot .innert .innert_top ul li img{height: 100%; width: 100%;}
+.html .header .bot .innert .innert_top .hidden{display: none;}
+/*                   轮播图上面的div选项卡                     */
+.html .header .bot .innert .innert_top .box{height: 20px;border-radius: 10px;position:absolute;top:313px;left:514px;background:rgba(0,0,0,0.5);opacity: 0.5;}
+.html .header .bot .innert .innert_top .box i{display: inline-block; background:#FFFFFF; border-radius: 50%;width: 15px;height: 15px;text-align: center;margin: 3px; }
+.html .header .bot .innert .innert_top .box .red{background: red;}
+/*                         结束选项卡                                      */
+.html .header .bot .innert .in  .tu_1{margin: 0px 12px 10px 12px;float:left}
+.html .header .bot .innert .in  .tu_2{margin: 0px 12px 10px 0px;float: right}
+.html .header .bot .right{float: left}
+.html .header .bot .right .shang{width: 184px;height: 115px;background: #ffffff;border-bottom:1px solid #e6e6e6 }
+.html .header .bot .right .shang .hi{float: left;}
+.html .header .bot .right .shang .hio{margin-left: 56px ;}
+.html .header .bot .right .shang .hio p{font:14px/20px "宋体" ;color:#666666}
+.html .header .bot .right .shang .hio a{margin: 3px ;font: 12px/30px "宋体";color:#000000}
+.html .header .bot .right .shang .his{width: 184px;height: 52px;margin-top: 25px}
+.html .header .bot .right .shang .his a{float: left; width: 70px;height: 20px;text-align:center;color: red; border: 2px solid red;font:12px/20px "宋体"; margin-left: 10px;}
+.html .header .bot .right .shang .his a:hover{background-color: red; color:#ffffff}
+.html .header .bot .right .shang .hi .hii img{width: 46px;height: 46px;border-radius: 50%}
+.html .header .bot .right .zhong{float: left; width: 184px;height: 154px;background: #ffffff;border-bottom:1px solid #e6e6e6}
+.html .header .bot .right .zhong .cuxiao{width: 144px; margin-left: 20px;border-bottom: 1px solid #e6e6e6}
+.html .header .bot .right .zhong .cuxiao a{ font: 16px/26px "宋体";color: #000000;font-weight: bold;}
+.html .header .bot .right .zhong .cuxiao span{float: right;margin-top: 4px;}
+.html .header .bot .right .zhong .xinwen{margin:12px;font: 14px/24px "宋体";color:#8f667a}
+
+
+
+.html .header .bot .right .xia{background:red;}
+.html .header .bot .right .l_icon{width: 184px; height: 210px; overflow: hidden; position: relative;}
+.html .header .bot .right .xia ul{width: 185px; margin-left: -1px;}
+.html .header .bot .right .xia ul li{background:#FFFFFF; float: left; height: 69px; width: 45px; border-left: 1px solid #ccc;border-top: 1px solid #ccc;}
+.html .header .bot .right .xia ul li .pic{height:24px; width:24px; margin: 14px 11px 0; background: url(../images/0039.png);}
+.html .header .bot .right .xia ul li:nth-child(1) .pic{background:url(../images/0039.png) left 0px top 60px;}
+.html .header .bot .right .xia ul li:nth-child(2) .pic{background:url(../images/0039.png) left 0px top -45px;}
+.html .header .bot .right .xia ul li:nth-child(3) .pic{background:url(../images/0039.png) left -44px top 60px;}
+.html .header .bot .right .xia ul li:nth-child(4) .pic{background:url(../images/0039.png) left -88px top 0px;}
+.html .header .bot .right .xia ul li:nth-child(5) .pic{background:url(../images/0039.png) left -88px top -45px;}
+.html .header .bot .right .xia ul li:nth-child(7) .pic{background:url(../images/0039.png) left -44px top -45px;}
+.html .header .bot .right .xia ul li:nth-child(8) .pic{background:url(../images/0039.png) left -44px top 60px;}
+.html .header .bot .right .xia ul li:nth-child(9) .pic{background:url(../images/0039.png) left -132px top 0px;}
+.html .header .bot .right .xia ul li:nth-child(10) .pic{background:url(../images/0039.png) left -132px top -45px;}
+.html .header .bot .right .xia ul li:nth-child(11) .pic{background:url(../images/0039.png) left -132px top 60px;}
+.html .header .bot .right .xia ul li:nth-child(12) .pic{background:url(../images/0039.png) left -44px top 0px;}
+.html .header .bot .right .xia ul li .words{height: 22px; line-height: 22px; text-align: center;font:12px/24px "宋体"; color:#cccccc}
+
+
+.html .banner{margin: auto;width: 1190px;height: 305px;background: #FFFFFF;}
+.html .banner .banner_one{color: #FFFFFF;background: #e01222;width: 1190px;height: 55px;}
+.html .banner .banner_one .left{float: left;}
+.html .banner .banner_one .inner{float: left;width: 300px;}
+.html .banner .banner_one .inner p{line-height: 55px;font-size: 30px;display: inline-block;}
+.html .banner .banner_one .inner span{margin-left: 20px;}
+.html .banner .banner_one .right{float: right;line-height: 55px;margin-right: 15px;}
+.html .banner .banner_one .right .box_one{width: 114px;height: 55px;display: inline-block;line-height: 30px;color: #6f6468;font-weight: 500;}
+.html .banner .banner_one .right .shi,.fen,.miao{width: 30px;height: 30px;background: #6f6468;display: inline-block;text-align: center;border-radius: 5px;font-size: 20px;font-weight: bolder;color: red;}
+.html .banner .banner_two{}
+.html .banner .seckill{padding: 15px;width: 167px;height: 200px;float: left;border-right:1px solid #e7e7e7 }
+.html .banner .seckill .zhang{box-shadow: 0 18px 12px -9px rgba(0,0,0,0.2)}
+.html .banner .seckill .zhang img{transition: all 0.8s ;margin:0 20px;padding-bottom: 2px;}
+.html .banner .seckill .zhang img:hover{ transform: translateY(-15px)}
+.html .banner .seckill:last-child{border-right: 0;}
+.html .banner .banner_two p{margin-top: 15px;color: #999999;font-size: 14px;}
+.html .banner .banner_two p:hover{color: red}
+.html .banner .banner_two span{color: red;font-size: 16px;font-weight: bolder}
+.html .banner .banner_two del{font-size: 12px;margin-left: 5px;}
+.html .banner .banner_two .jiaqian{margin-top: 10px;}
+
+
+.html .storey{width: 1190px;height: 500px;margin:20px auto;}
+.html .storey .left{width: 390px;height: 425px;background: red;float: left}
+.html .storey .left .top{width:390px;height: 55px; background: #4897a0;}
+.html .storey .left .top .img{width:20px;height: 55px;float: left }
+.html .storey .left .top .zi{width:350px;height: 55px;}
+.html .storey .left .top .zi p{font-size: 30px;line-height: 55px;color: #FFFFFF;display: inline-block}
+.html .storey .left .top .zi span{float: right;margin-top: 30px;color: #FFFFFF}
+.html .storey .left .bottom{margin-left: 9px;}
+.html .storey .left .bottom .kuai{width:186px;height: 120px;background: #CCCCCC;float: left;border-bottom:1px solid #000000;border-right: 1px solid #000000 }
+.html .storey .left .bottom .kuai:nth-child(2){border-right:0;}
+.html .storey .left .bottom .kuai:nth-child(4){border-right:0;}
+.html .storey .left .bottom .kuai:nth-child(6){border-right:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
